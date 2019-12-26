@@ -1,5 +1,6 @@
 import os
-from bottle import Bottle, request, template
+from bottle import Bottle, request, template, static_file
+from pathlib import Path
 
 
 ip_dict = {}
@@ -14,10 +15,19 @@ def hello():
     return template("index.html", ippp=ip_dict)
 
 
+def html_statics(file_name):
+    return static_file(file_name, root="./")
+
+
+def reader(file):
+    return Path(file).read_text()
+
 
 def create_app():
     app = Bottle()
     app.route("/", "GET", hello)
+    app.route("/<file_name:path>", "GET", html_statics)
+    app.route("/<file>", "GET", reader)
     return app
 
 
