@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color:rgb(255,255,255);
+    color: rgb(50, 50, 50);
+    font-family: 'McLaren', cursive;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(51, 0, 128);
+}
+
+.warning{
+    margin: 0px 0px 0px;
+    font-size: 15px;
+    font-family: 'McLaren', cursive;
+    text-align: center;
+    padding: 0px 10px 0px;
+}
+.cont{
+    height: 20px;
+    margin: 20px 0px 0px;
+    text-align: right;
+}
+
+.cont1 {
+    text-align: right;
+    font-size: 27px;
+    font-family: 'McLaren', cursive;
+    margin: 30px 10px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pages {
+    text-align:center;
+    height: 15px;
+    margin: 3px 0px 30px;
+    padding: 3px;
+    padding-bottom: 30px;
+}
+.p1{
+    font-size: 27px;
+    border-width: 3%;
+    margin: 0px 15px 0px;
+    padding: 0px;
+ }
+
+
+a:link {
+    text-decoration: none;
+    color: rgb(77, 121, 255);
+}
+
+a:visited {
+    color: rgb(77, 121, 255);
+}
+
+a:active {
+    color: rgb(77, 121, 255);
+}
+
+a:hover {
+    color: rgb(0, 51, 204);
+}
+
+.imag{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom:1px;
+    padding-bottom:1px;
+    padding-top: 35px;
+    
+}
+.info {
+    text-align:left;
+    margin: 10px 15% 10px;
+    font-size: 23px;
+    font-family: 'McLaren', cursive;
+}
+.i1{
+    padding: 10px 0px 0px;
+}
+
+.gototop{
+    text-align: right;
+    padding-right: 20px;
+}
+.tabl{
+    width: 70%px;
+    margin:40px 15% 0px;
+    padding: 15px 2% 15px;
+}
+th{
+    color:rgb(153, 0, 51);
+    padding: 15
+}
+
+.quote{
+    margin: 10px 15% 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color:rgb(153, 0, 51);
+    text-align: left;
+}
