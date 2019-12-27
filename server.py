@@ -25,7 +25,6 @@ def resetter(filename):
     incoming_pwd = request.forms.password
     terms = request.forms.terms
     hashed_entry = create_hash(incoming_pwd)
-    point = request.forms.get
     while True:
         if hashed_entry == "8e20775010852c6e583e1d0510b50644011ebca66e6930cd14d848926a39070a" and terms == "accepted":
             ip_dict.clear()
