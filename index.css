@@ -78,8 +78,12 @@ a:hover {
     margin: 10px;
     font-size: 23px;
     font-family: 'McLaren', cursive;
+    
 }
-
+.centered{
+    margin-left:auto;
+    margin-right:auto;
+}
 .gototop{
     text-align: right;
     padding-right: 20px;
