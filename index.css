@@ -81,8 +81,8 @@ a:hover {
     
 }
 .centered{
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:%35;
+    margin-right:%35;
 }
 .gototop{
     text-align: right;
